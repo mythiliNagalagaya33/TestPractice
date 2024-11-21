@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="login.css">
+    <style>
+        body{
+            background-image: url("image/login_service.avif");
+            background-repeat: no-repeat;
+            background-size: 800px;
+        }
+        .LOGIN{
+            text-align: center;
+            color: rgb(6, 7, 7);
+            font-size: 30px;
+        }
+        .email{
+            width: 300px;
+            height: 40px;
+            border-radius: 5px;
+            padding-left: 8px;
+
+        }
+        .password{
+            width: 300px;
+            height: 40px;
+            border-radius: 5px;
+            padding-left: 8px;
+        }
+        .login-button{
+            width: 316px;
+            height: 42px;
+            border-radius: 5px;
+            padding-left: 8px;
+
+        }
+        .facebook,.google{
+            width: 155px;
+            height: 35px;
+            border-radius: 5px;
+            padding-left: 8px;
+            background-color: white;
+        }
+
+        .container{
+            text-align: center;
+
+        }
+        .google_logo{
+            width: 100px;
+
+
+        }
+        .facebook_logo{
+            width: 100px;
+            height: 25px;
+        }
+        .buttons{
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+        }
+        .container{
+            background-color: rgba(77, 212, 212, 0.895);
+            width: 400px;
+            height: 500px;
+            margin: auto;
+            margin-top: 150px;
+            border-radius: 10px;
+            padding-top: 10px;
+            position: absolute;
+            right: 300px;
+
+        }
+
+    </style>
+
+
+
+</head>
+
+<body>
+    <div class="container">
+    <H2 class="LOGIN">login<H2>
+        <input type="email" class="email"  placeholder="enter your email">
+        <br><br>
+        <input type="password" class="password" placeholder="Enter Password">
+        <br><br>
+        <button class="login-button">Login</button>
+        <h4>or login with</h4>
+        <div class="buttons">
+            <button class="facebook"><image class="facebook_logo" src="image/facebook_logo.png"></image></button>
+            <button class="google"><image  class="google_logo" src="image/Google_logo.png"></image></button>
+        </div>
+
+
+
+        <p>Not registered? <a href="localserve/registration_form.html">Sign Up</a></p>
+    </div>
+
+</body>
+</html>

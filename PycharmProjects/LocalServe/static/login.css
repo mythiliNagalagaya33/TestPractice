@@ -1,0 +1,68 @@
+body{
+            background-image: url("image/login_service.avif");
+            background-repeat: no-repeat;
+            background-size: 800px;
+        }
+        .LOGIN{
+            text-align: center;
+            color: rgb(6, 7, 7);
+            font-size: 30px;
+        }
+        .email{
+            width: 300px;
+            height: 40px;
+            border-radius: 5px;
+            padding-left: 8px;
+
+        }
+        .password{
+            width: 300px;
+            height: 40px;
+            border-radius: 5px;
+            padding-left: 8px;
+        }
+        .login-button{
+            width: 316px;
+            height: 42px;
+            border-radius: 5px;
+            padding-left: 8px;
+
+        }
+        .facebook,.google{
+            width: 155px;
+            height: 35px;
+            border-radius: 5px;
+            padding-left: 8px;
+            background-color: white;
+        }
+
+        .container{
+            text-align: center;
+
+        }
+        .google_logo{
+            width: 100px;
+
+
+        }
+        .facebook_logo{
+            width: 100px;
+            height: 25px;
+        }
+        .buttons{
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+        }
+        .container{
+            background-color: rgba(77, 212, 212, 0.895);
+            width: 400px;
+            height: 500px;
+            margin: auto;
+            margin-top: 150px;
+            border-radius: 10px;
+            padding-top: 10px;
+            position: absolute;
+            right: 300px;
+
+        }

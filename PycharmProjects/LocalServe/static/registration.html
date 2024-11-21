@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h2>Registration</h2>
+    <form id="registrationForm">
+        <fieldset class="fieldset">
+            <div class="form-group">
+                <label for="first_name">First Name:</label>
+                <input type="text" id="first_name" name="first_name" placeholder="Enter your first name" required>
+                <div class="error-message" id="first_name_error"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="last_name">Last Name:</label>
+                <input type="text" id="last_name" name="last_name" placeholder="Enter your last name">
+                <div class="error-message" id="last_name_error"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <div class="error-message" id="email_error"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                <div class="error-message" id="password_error"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="confirm_password">Confirm Password:</label>
+                <input type="password" id="confirm_password" name="confirm_password" placeholder="Confirm your password" required>
+                <div class="error-message" id="confirm_password_error"></div>
+            </div>
+
+            <!-- <div class="form-group">
+                <label>Gender:</label>
+                <div class="gender-group">
+                    <input type="radio" id="gender_male" name="gender" value="male">
+                    <label for="gender_male">Male</label>
+                    <input type="radio" id="gender_female" name="gender" value="female">
+                    <label for="gender_female">Female</label>
+                    <input type="radio" id="gender_other" name="gender" value="other">
+                    <label for="gender_other">Other</label>
+                </div>
+            </div> -->
+
+            <div class="form-group">
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                <div class="error-message" id="phone_error"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="address">Address:</label>
+                <textarea id="address" name="address" placeholder="Enter your address"></textarea>
+                <div class="error-message" id="address_error"></div>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Submit">
+            </div>
+        </fieldset>
+    </form>
+
+    <script src="/static/scripts.js"></script>
+
+</body>
+</html>
